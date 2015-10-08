@@ -1,0 +1,40 @@
+body { 
+    width: 960px;
+    margin: 20px auto;
+}
+
+header,section,aside,footer {
+	box-sizing: border-box;
+
+}
+
+.section-box {
+	background-color: #ddd;
+	border: 2px solid #aaa;
+	margin: 20px 0;
+}
+
+.rectangle {
+	height: 110px;
+}
+
+.middle-box {
+	height: 320px;
+	margin-top: 0;
+}
+
+section {
+	float: left;
+	width: 620px;
+
+}
+
+aside {
+	float: right;
+	width: 340px;
+	margin-left: 20px;
+}
+
+footer {
+	clear: both;
+}
