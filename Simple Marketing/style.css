@@ -41,10 +41,14 @@ header {
 }
 
  section {
-    float: left;
+    float: right;
 	width: 470px;
 	height: 300px;
-	margin: 0px 10px 0px 0;
+	margin: auto;
+}
+
+.left {
+	float: left;
 }
 
 }
@@ -58,8 +62,18 @@ aside {
 	float: left;
 	width: 310px;
 	height: 200px;
-	margin: 10px 10px 10px 0px;
+	margin: 10px 0px 10px auto;
 	
+}
+
+.b {
+	float: right;
+	margin-left: 15px;
+}
+
+.c {
+	float: right;
+	margin-left: 15px;
 }
 
 footer {

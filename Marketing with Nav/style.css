@@ -1,0 +1,105 @@
+.clearfix: before,
+.clearfix: after {
+ 	content: "";
+	clear: both;
+}
+
+.clearfix { display: inline-block;}
+/* start commented backlash hack \*/
+*html.clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+
+body { 
+    width: 960px;
+    margin: 10px auto;
+}
+
+header,nav {
+	box-sizing: border-box;
+}
+
+section,aside,footer {
+	box-sizing: border-box;
+
+}
+
+header, nav {
+	float: left;
+	height: 50px;
+	width: 250px;
+	margin: auto;
+}
+
+nav {
+	float: right;
+	width: 150px;
+	margin-left: 10px;
+	margin-top: 40px;
+
+}
+
+
+/*nav {
+	float: right;
+	height: 50px;
+ 	width: 15% ;
+ 	margin: 0px auto;
+ 	margin-bottom: 20px;
+ 	margin-left: 5px;
+
+}
+*/
+
+.section-box {
+	background-color: #ddd;
+	border: 2px solid #aaa;
+}
+
+
+.rectangle {
+	height: 150px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+ section {
+    float: left;
+	width: 960px;
+	height: 300px;
+	margin: 0px 20px 20px 0;
+}
+
+aside.b {
+	float: right;
+	margin-left: 30px;
+}
+
+aside.c {
+	float: right;
+	margin: auto;
+}
+
+}
+
+.clearfix {
+	clear:both;
+}
+
+
+aside {
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0px 0px 20px auto;
+}
+
+footer {
+	width: 960px;
+}
+
+
+
+
+
