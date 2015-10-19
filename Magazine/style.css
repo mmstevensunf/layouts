@@ -66,8 +66,7 @@ nav {
 }
 
  section {
-
-    float: right;
+	float: right;
 	width: 760px;
 	height: 175px;
 	margin: 0px 0px 10px auto;

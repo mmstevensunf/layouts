@@ -1,0 +1,19 @@
+
+colors: yellow (#D9D328 ), light gray (#C6C6C6 ), dark gray (#9E9E9E ), black (#000)
+
+
+no clearfix on floated elements
+
+
+
+----huge collapse---clearfix
+
+
+clearing:
+
+
+ex: 
+
+div {
+clear:both;
+
